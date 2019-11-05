@@ -1,0 +1,129 @@
+@charset "UTF-8";
+	* {
+	   font-family: 'Noto Sans KR', sans-serif;
+	}
+	.div2 input[name=q5], .div2 input[name=q6]{
+		display:none;
+	}
+	.span, .span2{
+		display:inline-block;
+		width : 100px;
+		padding: 15px;
+		border : 1px solid black;
+		text-align: center;
+		color:black;
+		background-color: white;
+		color:black;
+		cursor:pointer;
+		margin-left: 10px;
+	}
+	#cancel{
+		background-color: white;
+		color: block;
+		border:1px solid black;
+		height : 30px;
+		width : 150px;
+		transition:background-color 0.25s, color 0.5s, transform 1s;
+	}
+	.div{
+		width: 1250px;
+		margin: 0 auto;
+	}
+	.div2{
+		width:690px;
+		margin: 0 auto;
+	}
+	.div>h4{
+		font-size: 28px;
+		border-bottom: 1px solid #333;
+		margin-bottom: 20px;
+		padding-left: 10px;
+		margin-top: 20px;
+	}
+	.div2>h4{
+		font-size: 28px;
+		margin-bottom: 20px;
+		padding-left: 10px;
+		margin-top: 20px;
+	}
+	.label{
+		position : relative;
+		display : inline-block;
+		height : 124px;
+		width : 283px;
+		padding : 15px 0px;
+		margin : 0px 10px;
+		border-bottom: 1px solid #999;
+		box-sizing: border-box;
+	}
+	.stepWrap{
+		margin: 0 auto;
+		text-align: center;
+		color:#bbb;
+	}
+	.stepWrap>label{
+		padding:12px 20px 8px 20px;
+		margin:0px;
+	}
+	p, h4{
+		color : black;
+	}
+	.label>span{
+		float:left;
+		font-size: 16px;
+	}
+	.label p{
+		margin-top: 16px;
+		display: inline-block;
+	}
+	.label>span:last-child{
+		display:none;
+	}
+	.verticalabel{
+		text-align:center;
+		display : inline-block;
+		width : 104px;
+		padding : 15px 0px;
+		margin : 0px 20px;
+		vertical-align: top;
+		position:relative;
+	}
+	.verticalabel p{
+		margin-bottom: 0px;
+	}
+	.overflow{
+		overflow: hidden;
+		padding-bottom: 10px;
+	}
+	.img{
+		height:94px;
+		width:94px;
+		border-radius: 50%;	
+		margin: 0px 15px 0px 25px;
+	}
+	.wrap{
+		width:690px;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-bottom: 70px;
+	}
+	.div input[type=text]{
+		margin: 10px;
+		margin-right: 0px;
+	}
+	.cancel{
+		margin-left: 30px;
+	}
+	.buttons{
+		width : 345px;
+		height: 50px;
+		border: 1px solid black;
+		display:inline-block;
+		text-align: center;
+		line-height: 50px;
+		background-color: white;
+	}
+	.black{
+		background-color: black;
+		color : white;
+	}
