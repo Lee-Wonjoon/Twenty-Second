@@ -1,0 +1,95 @@
+@charset "UTF-8";
+#header{
+			width : 100%;
+			height : 400px;
+			background-image: url("/choiceimg/t.9125.1.jpg");
+			background-size : 100%, 100%;
+			cursor: pointer;
+			display: table;
+}
+.titleWrap{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+.title{
+	display:inline-block;
+	background-color: rgba(0,0,0,0.4);
+	width : 530px;
+	padding: 32px 25px;
+	color: white;
+}
+.font48{
+	font-size : 48px;
+	line-height: 50px;
+}
+.font42{
+	font-size : 42px;
+	line-height: 50px;
+}
+.font32{
+	font-size : 32px;
+}
+.font28{
+	font-size : 28px;
+}
+.font24{
+	font-size : 24px;
+}
+.font16{
+	font-size : 16px;
+	font-weight: bold;
+}
+.font13{
+	font-size : 13px;
+	font-weight: bold;
+}
+.choiceButton{
+	display : inline-block;
+	width: 150px;
+	line-height:40px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	transition:background-color 0.5s, color 1s, transform 2s;
+}
+.white{
+	background-color: white;
+	color: black;
+}
+.white:hover{
+	color:white;
+	background-color:black;
+}
+.black{
+	color:white;
+	background-color:black;
+	margin-left: 10px;
+}
+.black:hover{
+	background-color: white;
+	color: black;
+}
+.trial-top{
+	margin-bottom: 130px;
+}
+.question{
+	margin-bottom: 130px;
+}
+.bodyWrap{
+	width: 650px;
+}
+.content{
+	width : 600px;
+	margin: 0 auto;
+	
+}
+.backgroundPhoto{
+	width : 100%;
+	height : 603px;
+	background-image: url("/choiceimg/page.png");
+	background-size : 100%, 100%;
+	display: table;
+	margin-top: 60px;
+}
